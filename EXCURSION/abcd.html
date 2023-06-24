@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+
+        //variable creation
+        let value = 10;
+        let name="Raja";
+        document.writeln(value)
+
+        document.writeln(value)
+
+        document.writeln(value + value);
+
+        document.writeln(name)
+
+
+       alert("Display message " +name)//browser message box
+
+       let getValue =  prompt("Enter the name",name)
+       document.writeln(getValue);
+       /*
+          message it will provide text box along with two
+           buttons
+           click on okay ---> values will pass
+           click on cancel ---> values do't pass will get only null
+       */
+
+       //output   
+       /*
+        
+       */
+
+      let isEligible = confirm("Are you eligible");
+      document.writeln(isEligible)
+      if(isEligible){
+        document.writeln("<h1>i am eligible</h1>")
+      }else{
+        document.writeln("<h style='color:red;'>i am not eligible </h1>")
+      }
+
+    </script>
+</body>
+</html>
