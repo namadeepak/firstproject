@@ -1,0 +1,29 @@
+#about_us_manfac {
+    position: absolute;
+    left: 90px;
+    top: 180px;
+    color: white;
+    border: 3px solid white;
+ 
+  }
+
+  #about_us_storefind {
+ 
+    position: absolute;
+    left: 100px;
+    top: 180px;
+    color: white;
+    border: 3px solid white;
+  }
+
+  #about_us_env {
+    position: absolute;
+    left: 35px;
+    top: 180px;
+    color: white;
+    border: 3px solid white;
+  }
+
+
+
+ 
