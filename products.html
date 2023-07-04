@@ -9,7 +9,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
     <link rel="stylesheet" href="css/style.css">
 
     <title></title>
@@ -31,35 +30,35 @@
           <a class="nav-link" href="about_us.html">About us</a>
         </li>
         
-        <li class="nav-item dropdown active">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Product's
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="fruits.html"><b><i>Fruits</i></b></a>
-            <a class="dropdown-item" href="vegetables.html"><b><i>Vegetables</i></b></a>
-            <a class="dropdown-item" href="groceries.html"><b><i>Groceries</i></b></a>
-          </div>
+        <li class="nav-item">
+         
+          <a class="nav-link text-center" href="products.html">Products</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="product.html">Items form</a>
+          <a class="nav-link" href="Itemform.html">Items form</a>
         </li>
       </ul>
-    </nav>
-    <div class="jumbotron bg-light" style="text-align: center;">
-        <div class="container">
-            <img src="./images/95.avif" width="1150px" height="520px">
-        </div>
+      <!--<form class="form-inline my-2 my-lg-0">
+        <input id="searchp" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button id="searchb" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>-->
     </div>
-    <hr class="my-4">
+  </nav><br>
+
+   <!-- <div class="jumbotron bg-light" style="text-align: center;">
+        <div class="container">
+            <img src="./images/its.jpg" width="1200px" height="620px">
+        </div>
+    </div>-->
+
+    <hr>
 
    
 
     <section class="filter-prod">
         <h3 class="filter">FILTER BY</h3><br>
 
-        <form method="get" action="#" class="men-form">
+        <form method="get" action="#" class="fruits">
 
             <select id="selectsize">
 
@@ -75,7 +74,7 @@
 
             </select>
 
-            <span class="price-vegetables">
+            <span class="price-fruits">
                 <select id="selectprice">
                     <option>All Prices</option>
                     <option value="Below-500">Below-500</option>
@@ -88,44 +87,44 @@
                 </select>
 
             </span>
-            <span class="prod-type-vegetables">
+            <span class="prod-type-fruits">
                 <select id="selectproducts">
                     <option>Product-Type</option>
-                    <option>Colgate</option>
-                    <option>Closeup</option>
-                    <option>Maggi</option>
-                    
+                    <option>Apples</option>
+                    <option>Oranges</option>
+                    <option>Pineapple</option>
+                    <option>Bananas</option>
+                    <option>Grapes</option>
                 </select>
             </span>
 
             <span>
-                <input type="submit" value="Apply" class="submit-groceries">
+                <input type="submit" value="Apply" class="submit-fruits">
             </span>
             <span>
-                <input type="reset" value="Clear Filters" class="reset-groceries">
+                <input type="reset" value="Clear Filters" class="reset-fruits">
 
             </span>
 
         </form>
     </section>
+
+
     <hr class="line">
     <p class="showprod"><b>Showing 12 of 12 products</b></p><br>
 
-
-
-
-    <div class="container">
+   <div class="container">
     <div class="row" id="mainpagecatrow1">
         <div class="col-md-4">
           <div class="card" style="width: 20rem;">
             <span id="cat-1-flat">
-              <p>Price 500gm-200/-</p>
+              <p>Price 1kg-250/-</p>
             </span>
   
             <span id="cat-1-text">
-              <b>Colgate</b><br>
+              <b>Orange</b><br>
             </span>
-            <img src="./images/94.avif" class="card-img-top" alt="No Image">
+            <img src="./images/10.avif" class="card-img-top" alt="No Image">
             <a href="#" class="btn btn-success">Shop Now</a>
   
   
@@ -134,24 +133,24 @@
         <div class="col-md-4">
           <div class="card" style="width: 20rem;">
             <span id="cat-1-flat">
-              <p>Price 150gms- 139/-</p>
+              <p>Dozen 100/-</p>
             </span>
             <span id="cat-2-text">
-              <b>Closeup</b><br>
+              <b>Bananas</b><br>
             </span>
-            <img src="./images/93.avif" class="card-img-top" alt="No Image">
+            <img src="./images/09.avif" class="card-img-top" alt="No Image">
             <a href="#" class="btn btn-success">Shop Now</a>
           </div>
         </div>
         <div class="col-md-4" id="mainpageimg3">
           <div class="card" style="width: 20rem;">
             <span id="cat-1-flat">
-              <p>Price 560gms- 60/-</p>
+              <p>Each one 45/-</p>
             </span>
             <span id="cat-3-text">
-              <b>Maggi</b><br>
+              <b>Apples</b><br>
             </span>
-            <img src="./images/92.avif" class="card-img-top" alt="No Image">
+            <img src="./images/08.avif" class="card-img-top" alt="No Image">
             <a href="#" class="btn btn-success">Shop Now</a>
           </div>
         </div>
@@ -160,7 +159,7 @@
       </div>
       <hr class="line-mainpagecat">
   
-      <!--<div class="row" id="mainpagecatrow2">
+      <div class="row" id="mainpagecatrow2">
         <div class="col-md-4">
           <div class="card" style="width: 20rem;">
             <span id="cat-1-flat">
@@ -169,7 +168,7 @@
             <span id="cat-4-text">
               <b>Mangoes</b><br>
             </span>
-            <img src="C:\Users\sushm\OneDrive\Desktop\Boot exc\07.avif" class="card-img-top" alt="No Image">
+            <img src="./images/07.avif" class="card-img-top" alt="No Image">
   
             <a href="#" class="btn btn-success">Shop Now</a>
   
@@ -183,7 +182,7 @@
             <span id="cat-5-text">
               <b>Pineapple</b><br>
             </span>
-            <img src="C:\Users\sushm\OneDrive\Desktop\Boot exc\06.avif" class="card-img-top" alt="No Image">
+            <img src="./images/06.avif" class="card-img-top" alt="No Image">
             <a href="#" class="btn btn-success">Shop Now</a>
           </div>
         </div>
@@ -195,14 +194,17 @@
             <span id="cat-6-text">
               <b>pomegranates</b><br>
             </span>
-            <img src="C:\Users\sushm\OneDrive\Desktop\Boot exc\05.avif" class="card-img-top" alt="No Image">
+            <img src="./images/05.avif" class="card-img-top" alt="No Image">
             <a href="#" class="btn btn-success">Shop Now</a>
           </div>
-        </div>-->
+        </div>
+        
   
   
       </div>
     </div>
+    
+    
 
 
 
